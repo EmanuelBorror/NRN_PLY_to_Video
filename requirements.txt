@@ -1,0 +1,11 @@
+PIL
+imageio
+matplotlib
+neuron
+numpy
+os
+pprint
+pyvista
+scipy
+swcToolkit
+trimesh
