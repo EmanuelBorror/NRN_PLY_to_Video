@@ -7,6 +7,7 @@ import run_nrn_sim as rns
 rns.main(input_ply, swc_file, frames_output_path)  
 
 "main" has 4 input arguments described in the function definition.    
-input_ply is the path to your input file on your computer. 
-swc_file is the swc_file that describes the ply file. 
-frames_output_path is a path to a folder on your device from which you want to have the frames of the generated video temporarily stored.
+input_ply is the path to your input file on your computer.   
+swc_file is the swc_file that describes the ply file.   
+frames_output_path is a path to a folder on your device from which you want to have the frames of the generated video temporarily stored.  
+plot_node_v determines whether a plot graphing the voltages for each segment of the neuronal cell ought to be displayed. It is by default set to False. 
